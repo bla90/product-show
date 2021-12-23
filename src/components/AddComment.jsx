@@ -1,31 +1,37 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 import './css/style.css';
-import Posts from "./Posts";
-import Authentication from "./Authentication";
 
-import { Switch, Route, Link } from "react-router-dom";
-import UserProfile from "./UserProfile";
-import PostPage from "./PostPage";
+class AddComment extends Component {
+  state = { content: '' };
 
+  handleChange = event => {
+    const { name, value } = event.target;
+    this.setState({ [name]: value });
+  };
 
-class Application extends Component {
+  handleSubmit = event => {
+    event.preventDefault();
+
+    this.props.onCreate(this.state);
+
+    this.setState({ content: '' });
+  };
+
   render() {
+    const { content } = this.state;
     return (
-      <main className="Application">
-        <Link to="/">
-          <h1 style={{ textAlign: "center" }}>Product-show</h1>
-        </Link>
-        <>
-</>
-        <Authentication />
-        <Switch>
-          <Route exact path="/" component={Posts} />
-          <Route exact path="/profile" component={UserProfile} />
-          <Route exact path="/posts/:id" component={PostPage} />
-        </Switch>
-      </main>
+      <form onSubmit={this.handleSubmit} className="AddComment">
+        <input
+          type="text"
+          name="content"
+          placeholder="Comment"
+          value={content}
+          onChange={this.handleChange}
+        />
+        <input className="create" type="submit" value="Create Comment" />
+      </form>
     );
   }
 }
 
-export default Application;
+export default AddComment;
