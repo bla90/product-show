@@ -42,7 +42,7 @@ class AddPost extends Component {
     const { title, content } = this.state;
     return (
       <React.Fragment>
-        <h1 style={{ textAlign: "center" }}>Create a Post</h1>
+        <h2 style={{ textAlign: "center" }}>Create a Post</h2>
         <form style={{margin: 2}} onSubmit={this.handleSubmit} className="AddPost">
           <input
             type="text"
