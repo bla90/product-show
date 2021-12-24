@@ -21,7 +21,7 @@ const Post = ({ id, title, content, user, createdAt, stars, comments }) => {
   return (
     <article className="Post">
       <div className="Post--content">
-        <Link to={`/posts/${id}`}><h3>{title}</h3></Link>
+        <Link to={`/posts/${id}`}><h1>{title}</h1></Link>
         <div>{content}</div>
       </div>
       <div className="Post--meta">
