@@ -46,6 +46,7 @@ const Post = ({ id, title, content, user, createdAt, stars, comments }) => {
           {belongsToCurrentUser(currentUser, user) && <button className="delete" onClick={remove}>Delete</button>}
         </div>
       </div>
+      <hr></hr>
     </article>
   );
 };

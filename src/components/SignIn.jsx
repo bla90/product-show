@@ -22,7 +22,7 @@ class SignIn extends Component {
     return (
       <form className="SignIn" onSubmit={this.handleSubmit}>
         <h2 style={{margin: 2}} id='loginpost'>Sign In</h2>
-        <button style={{margin: 2}} type="button" class="btn btn-success" onClick={signInWithGoogle}>Get started</button>
+        <button style={{margin: 2}} id="signinbtn" type="button" class="btn btn-success" onClick={signInWithGoogle}>Get started</button>
       </form>
     );
   }

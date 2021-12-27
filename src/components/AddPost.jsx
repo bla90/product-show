@@ -43,10 +43,10 @@ class AddPost extends Component {
     return (
       <React.Fragment>
         <h2 style={{ textAlign: "center" }} id="create">Create a Post</h2>
-        <form style={{margin: 2}} onSubmit={this.handleSubmit} className="AddPost">
+        <form onSubmit={this.handleSubmit} className="AddPost">
+          <center>
           <input
             type="text"
-            style={{width: 200}}
             class="form-control"
             name="title"
             placeholder="Title"
@@ -54,7 +54,6 @@ class AddPost extends Component {
             onChange={this.handleChange}
           />
           <input
-          style={{width: 200}}
             type="text"
             class="form-control"
             name="content"
@@ -62,9 +61,10 @@ class AddPost extends Component {
             value={content}
             onChange={this.handleChange}
           />
-          <button className="create" type="submit" class="btn btn-primary">Publish</button>
+          <button className="create" type="submit" class="btn btn-primary">Publish</button></center>
         </form>
       </React.Fragment>
+      
     );
   }
 }

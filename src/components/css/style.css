@@ -1,68 +1,75 @@
-body{
-    background-color: rgb(6, 67, 124);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+body {
+  background-color: #ffffff;
+  font-family: 'Short Stack', cursive;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-h1{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-transform: uppercase;
-    font-size: 28px;
+h1 {
+font-family: 'Short Stack', cursive;  text-transform: uppercase;
+  font-size: 28px;
 }
-h1:hover{
-    color: rgb(73, 7, 148);
+h1 {
+  color: Black;
 }
-img{
-    border-radius: 0%;
-    height: fit-content;
-    width: fit-content;
+img {
+  border-radius: 50px;
+  height: fit-content;
+  width: fit-content;
 }
-button{
+/* button{
     height: 35px;
     font-size: 20px;
     color: black;
     text-decoration: none;
     background-color: white;
     
-}
-button:hover{
+} */
+/* button:hover{
    background-color: green;
    color: whitesmoke;
 
-}
-input{
-    height: 30px;
+} */
+
+button {
+  border-radius: 4px;
+  background-color: #764fc4;
+  border: none;
+  height: 40px;
+  width: 80px;
+  color: white;
+  font-weight: 900;
+  margin: 2px;
 }
 
-::placeholder{
-    text-transform: uppercase;
+input {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+      margin: 0 auto;
+    padding: 1.5rem 2rem;
+    border-radius: 0.6rem;
+    width: 90%;
+    margin-bottom: 4px;
+    border-color: black;
 }
-p{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30px;
-    color: whitesmoke;
+
+::placeholder {
+  text-transform: uppercase;
 }
-#content112{
-    font-size: 25px;
+p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  color: black;
 }
-h2{
-    font-size: 35px;
+#content112 {
+  font-size: 25px;
 }
-#posttitle{
-    font-size: 35px;
-    color: whitesmoke;
-    background-color: rgb(101, 171, 204);
+h2 {
+  font-size: 35px;
 }
-#create{
-    color: whitesmoke;
-    background-color: rgb(101, 171, 204);
-}
-#loginpost{
-    color: yellow;
-}
-#poster{
-    color: whitesmoke;
-    background-color: rgb(101, 171, 204);
-    margin-top: 60px;
+
+hr {
+  height: 3px;
+  border-width: 0;
+  background-color: #7a7c80;
 }
