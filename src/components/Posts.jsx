@@ -10,7 +10,7 @@ const Posts = () => {
   return (
     <section className="Posts">
       <AddPost />
-      <h1 style={{ textAlign: "center" }}>All Posts</h1>
+      <h1 style={{ textAlign: "center" }} id="poster">All Posts</h1>
 
       {posts.length > 0 ? (
         posts.map((post) => <Post {...post} key={post.id} />)

@@ -13,7 +13,7 @@ class Application extends Component {
     return (
       <main className="Application">
         <Link to="/">
-          <h1 style={{ textAlign: "center" }}>WINDOWS</h1>
+          <h1 style={{ textAlign: "center" }} id="posttitle">COMMUNITY POST</h1>
         </Link>
         <>
 </>

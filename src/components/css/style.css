@@ -1,18 +1,22 @@
 body{
-    background-color: antiquewhite;
+    background-color: rgb(6, 67, 124);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 a{
     text-decoration: none;
 }
 h1{
-    font-family: Cinzel;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-transform: uppercase;
+    font-size: 28px;
 }
 h1:hover{
-    color: blue;
+    color: rgb(73, 7, 148);
 }
 img{
-    border-radius: 50%;
+    border-radius: 0%;
+    height: fit-content;
+    width: fit-content;
 }
 button{
     height: 35px;
@@ -24,7 +28,7 @@ button{
 }
 button:hover{
    background-color: green;
-   color: white;
+   color: whitesmoke;
 
 }
 input{
@@ -35,5 +39,30 @@ input{
     text-transform: uppercase;
 }
 p{
-    font-family: Doppio One;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: whitesmoke;
+}
+#content112{
+    font-size: 25px;
+}
+h2{
+    font-size: 35px;
+}
+#posttitle{
+    font-size: 35px;
+    color: whitesmoke;
+    background-color: rgb(101, 171, 204);
+}
+#create{
+    color: whitesmoke;
+    background-color: rgb(101, 171, 204);
+}
+#loginpost{
+    color: yellow;
+}
+#poster{
+    color: whitesmoke;
+    background-color: rgb(101, 171, 204);
+    margin-top: 60px;
 }

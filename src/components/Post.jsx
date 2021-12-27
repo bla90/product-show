@@ -22,7 +22,7 @@ const Post = ({ id, title, content, user, createdAt, stars, comments }) => {
     <article className="Post">
       <div className="Post--content">
         <Link to={`/posts/${id}`}><h1>{title}</h1></Link>
-        <div>{content}</div>
+        <div id='content112'>{content}</div>
       </div>
       <div className="Post--meta">
         <div>
