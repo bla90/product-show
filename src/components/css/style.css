@@ -1,3 +1,5 @@
+
+
 body {
   background-color: #ffffff;
   font-family: 'Short Stack', cursive;
@@ -30,46 +32,3 @@ img {
    color: whitesmoke;
 
 } */
-
-button {
-  border-radius: 4px;
-  background-color: #764fc4;
-  border: none;
-  height: 40px;
-  width: 80px;
-  color: white;
-  font-weight: 900;
-  margin: 2px;
-}
-
-input {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.2rem;
-      margin: 0 auto;
-    padding: 1.5rem 2rem;
-    border-radius: 0.6rem;
-    width: 90%;
-    margin-bottom: 4px;
-    border-color: black;
-}
-
-::placeholder {
-  text-transform: uppercase;
-}
-p {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 30px;
-  color: black;
-}
-#content112 {
-  font-size: 25px;
-}
-h2 {
-  font-size: 35px;
-}
-
-hr {
-  height: 3px;
-  border-width: 0;
-  background-color: #7a7c80;
-}
