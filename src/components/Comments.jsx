@@ -1,7 +1,6 @@
 import React from 'react'
 import Comment from './Comment';
 import AddComment from './AddComment';
-import './css/style.css';
 
 const Comments = ({ comments, onCreate }) => {
   return (

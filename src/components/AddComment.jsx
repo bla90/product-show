@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './css/style.css';
 
 class AddComment extends Component {
   state = { content: '' };

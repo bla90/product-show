@@ -1,6 +1,5 @@
 import React from 'react';
 import { UserContext } from '../providers/UserProvider';
-import './css/style.css';
 
 const getDisplayName = WrappedComponent => {
   return WrappedComponent.displayName || WrappedComponent.name || 'Component';

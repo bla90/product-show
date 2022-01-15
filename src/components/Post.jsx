@@ -1,5 +1,4 @@
 import React, {useContext} from 'react';
-import './css/style.css';
 import moment from 'moment';
 import { firestore } from '../firebase';
 import { UserContext } from '../providers/UserProvider';

@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import './css/style.css';
 import Posts from "./Posts";
 import Authentication from "./Authentication";
 

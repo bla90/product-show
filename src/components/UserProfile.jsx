@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { auth } from '../firebase';
 import { firestore, storage } from '../firebase';
-import './css/style.css';
 
 class UserProfile extends Component {
   state = { displayName: '' };

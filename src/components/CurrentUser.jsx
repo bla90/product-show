@@ -1,7 +1,6 @@
 import React from 'react';
 import moment from 'moment';
 import { signOut } from '../firebase';
-import './css/style.css';
 import { Link } from 'react-router-dom';
 
 const CurrentUser = ({ displayName, photoURL, email, createdAt, children }) => {

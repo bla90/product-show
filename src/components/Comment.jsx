@@ -1,5 +1,4 @@
 import React from 'react';
-import './css/style.css';
 import moment from 'moment';
 
 const Comment = ({ content, user, createdAt }) => {

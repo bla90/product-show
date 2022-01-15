@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import './css/style.css';
 import Post from "./Post";
 import Comments from "./Comments";
 import { firestore } from "../firebase";

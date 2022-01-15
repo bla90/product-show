@@ -1,5 +1,4 @@
 import React, { useContext } from 'react';
-import './css/style.css';
 
 import CurrentUser from './CurrentUser';
 import SignIn from './SignIn';
